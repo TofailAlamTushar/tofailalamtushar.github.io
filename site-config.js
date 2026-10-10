@@ -39,9 +39,9 @@ window.SITE_CONFIG = {
 
   // Full profile URLs, including https://
   github: "https://github.com/tofailalamtushar",
-  linkedin: "YOUR_LINKEDIN_URL",  // e.g. "https://www.linkedin.com/in/your-profile"
-  upwork: "YOUR_UPWORK_URL",      // optional — set to "" to hide
-  fiverr: "YOUR_FIVERR_URL",      // optional — set to "" to hide
+  linkedin: "https://www.linkedin.com/in/tofail-alam-tushar-99a923119",
+  upwork: "",                     // optional — add a URL to show it
+  fiverr: "https://www.fiverr.com/tushar_alam",
 
   // Path to your CV, relative to index.html. assets/cv.pdf is a web-safe
   // version generated from your CV (no phone, address, birth date or
