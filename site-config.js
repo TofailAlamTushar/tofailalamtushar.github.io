@@ -46,6 +46,6 @@ window.SITE_CONFIG = {
   // Path to your CV, relative to index.html. assets/cv.pdf is a web-safe
   // version generated from your CV (no phone, address, birth date or
   // personal details). Review it; to use your own PDF, replace the file.
-  cvFile: "assets/cv.pdf",
+  cvFile: "assets/cv-1.pdf",
   cvReady: true
 };
