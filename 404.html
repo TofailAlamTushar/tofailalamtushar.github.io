@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0B1120">
+  <!-- Self-contained on purpose: GitHub Pages serves this file at any broken URL,
+       at any folder depth, so relative links to CSS/JS would not resolve. -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B1120'/%3E%3Cpath d='M24 20 12 32l12 12M40 20l12 12-12 12' fill='none' stroke='%233B82F6' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <style>
+    :root { --bg:#0B1120; --surface:#151F32; --border:#263449; --text:#F8FAFC; --muted:#94A3B8; --accent:#2563EB; --accent-text:#60A5FA; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; min-height:100dvh; display:grid; place-items:center; padding:1.5rem;
+      background:var(--bg); color:var(--muted); font-family:"Inter","Segoe UI",system-ui,-apple-system,Arial,sans-serif; line-height:1.6; }
+    main { width:min(100%, 34rem); text-align:center; }
+    .code { font-family:"Cascadia Code",Consolas,ui-monospace,monospace; color:var(--accent-text); font-size:.85rem; letter-spacing:.06em; }
+    h1 { color:var(--text); font-size:clamp(1.8rem,1.3rem + 2.5vw,2.6rem); line-height:1.15; margin:.75rem 0 1rem; letter-spacing:-.02em; }
+    pre { text-align:left; margin:1.75rem 0; padding:1rem 1.2rem; background:var(--surface); border:1px solid var(--border);
+      border-radius:10px; font-family:"Cascadia Code",Consolas,ui-monospace,monospace; font-size:.82rem; color:#CBD5E1; overflow-x:auto; }
+    .k { color:#7DB4FF; } .s { color:#FCD9A5; }
+    a.btn { display:inline-flex; align-items:center; min-height:48px; padding:.7rem 1.4rem; border-radius:6px;
+      background:var(--accent); color:#fff; font-weight:600; text-decoration:none; }
+    a.btn:hover { background:#1D4ED8; }
+    a:focus-visible { outline:2px solid #38BDF8; outline-offset:3px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="code">HTTP 404 · NOT FOUND</p>
+    <h1>This page doesn't exist.</h1>
+    <p>The link may be out of date, or the address may have a typo.</p>
+<pre aria-hidden="true"><span class="k">return</span> <span class="k">NotFound</span>(<span class="s">"Try the home page instead."</span>);</pre>
+    <a class="btn" id="home-link" href="/">Go to the home page</a>
+  </main>
+  <script>
+    /* EDIT: if you publish as a *project* site (https://user.github.io/repo-name/),
+       change "/" to "/repo-name/". For a user site (repo named user.github.io)
+       or a custom domain, leave it as "/". */
+    var SITE_BASE = "/";
+    document.getElementById("home-link").setAttribute("href", SITE_BASE);
+  </script>
+</body>
+</html>
