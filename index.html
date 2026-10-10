@@ -217,7 +217,7 @@
           <article class="skill-group">
             <h3 class="skill-group__title"><svg class="icon" aria-hidden="true"><use href="#i-flow"/></svg>Frontend</h3>
             <ul class="skill-list">
-              <li>Angular</li><li>TypeScript</li><li>JavaScript</li><li>Blazor Server</li><li>Razor views</li><li>HTML5 &amp; CSS3</li><li>Bootstrap</li>
+              <li>Angular</li><li>React</li><li>TypeScript</li><li>JavaScript</li><li>Blazor Server</li><li>Razor Pages &amp; views</li><li>HTML5 &amp; CSS3</li><li>Bootstrap</li>
             </ul>
           </article>
 
@@ -246,8 +246,8 @@
             <h3 class="skill-group__title"><svg class="icon" aria-hidden="true"><use href="#i-rocket"/></svg>Deployment &amp; infrastructure</h3>
             <!-- EDIT: once you confirm production experience with a tool, remove its "learning" class and tag. -->
             <ul class="skill-list">
-              <li class="skill--learning">IIS <span class="tag tag--learning">Learning</span></li>
-              <li class="skill--learning">Docker <span class="tag tag--learning">Learning</span></li>
+              <li>IIS</li>
+              <li>Docker</li>
               <li class="skill--learning">CI/CD <span class="tag tag--learning">Learning</span></li>
               <li class="skill--learning">Azure <span class="tag tag--learning">Learning</span></li>
             </ul>
@@ -513,35 +513,6 @@
               <div class="project__actions">
                 <button class="btn btn--small btn--primary" type="button" data-dialog-open="case-3">Read case study</button>
                 <a class="link-icon" href="YOUR_PROJECT_3_REPO_URL" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>Source</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Project 4 -->
-          <article class="project" aria-labelledby="p4-title">
-            <div class="project__visual" role="img" aria-label="Placeholder illustration of a stream of analytics events with a validation checklist">
-              <svg viewBox="0 0 320 180" aria-hidden="true" focusable="false">
-                <rect width="320" height="180" fill="#0F1A2E"/>
-                <g fill="#16243C"><rect x="16" y="22" width="180" height="26" rx="5"/><rect x="16" y="56" width="180" height="26" rx="5"/><rect x="16" y="90" width="180" height="26" rx="5"/><rect x="16" y="124" width="180" height="26" rx="5"/></g>
-                <g fill="#38BDF8"><circle cx="32" cy="35" r="5"/><circle cx="32" cy="69" r="5"/><circle cx="32" cy="103" r="5"/></g><circle cx="32" cy="137" r="5" fill="#3B82F6"/>
-                <g fill="#93C5FD"><rect x="46" y="32" width="60" height="6" rx="2"/><rect x="46" y="66" width="76" height="6" rx="2"/><rect x="46" y="100" width="66" height="6" rx="2"/><rect x="46" y="134" width="52" height="6" rx="2"/></g>
-                <g fill="#2F4466"><rect x="140" y="32" width="44" height="6" rx="2"/><rect x="140" y="66" width="44" height="6" rx="2"/><rect x="140" y="100" width="44" height="6" rx="2"/><rect x="140" y="134" width="44" height="6" rx="2"/></g>
-                <rect x="212" y="22" width="92" height="128" rx="6" fill="#16243C" stroke="#2A3A55"/>
-                <g stroke="#38BDF8" stroke-width="2" fill="none" stroke-linecap="round"><path d="m224 44 4 4 7-8M224 72l4 4 7-8M224 100l4 4 7-8"/></g>
-                <g fill="#2F4466"><rect x="242" y="42" width="48" height="5" rx="2"/><rect x="242" y="70" width="40" height="5" rx="2"/><rect x="242" y="98" width="50" height="5" rx="2"/><rect x="242" y="126" width="36" height="5" rx="2"/></g>
-                <rect x="224" y="124" width="10" height="10" rx="2" fill="none" stroke="#2F4466" stroke-width="2"/>
-              </svg>
-              <span class="project__visual-note">Illustration</span>
-            </div>
-            <div class="project__body">
-              <p class="project__status"><span class="tag tag--sample">Sample project</span></p>
-              <h3 class="project__title" id="p4-title">Analytics Tracking Demonstration</h3>
-              <p class="project__desc">A small demo storefront instrumented with Google Analytics 4 and Google Tag Manager, showing a documented event plan for page views, form submissions, leads and simulated purchases — and how to verify each one.</p>
-              <ul class="stack" aria-label="Technology stack"><li>JavaScript</li><li>Google Analytics 4</li><li>Google Tag Manager</li></ul>
-              <div class="project__actions">
-                <button class="btn btn--small btn--primary" type="button" data-dialog-open="case-4">Read case study</button>
-                <a class="link-icon" href="YOUR_PROJECT_4_REPO_URL" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>Source</a>
-                <a class="link-icon" href="YOUR_PROJECT_4_DEMO_URL" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg>Live demo</a>
               </div>
             </div>
           </article>
@@ -875,44 +846,6 @@
       </div>
       <footer class="case__foot">
         <a class="link-icon" href="YOUR_PROJECT_3_REPO_URL" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>Source code</a>
-      </footer>
-    </div>
-  </dialog>
-
-  <dialog class="case" id="case-4" aria-labelledby="case-4-title">
-    <div class="case__inner">
-      <header class="case__head">
-        <div>
-          <p class="case__kicker"><span class="tag tag--sample">Sample project</span> Case study</p>
-          <h2 class="case__title" id="case-4-title">Analytics Tracking Demonstration</h2>
-        </div>
-        <button class="case__close" type="button" data-dialog-close aria-label="Close case study"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
-      </header>
-      <div class="case__body prose">
-        <h3>The problem</h3>
-        <p>Many sites have analytics installed but cannot trust the numbers: events fire twice, conversions are not tracked, and nobody has written down what each event means.</p>
-        <h3>Proposed solution</h3>
-        <p>A small demo storefront with a written tracking plan. Every event is pushed to the data layer, configured in Google Tag Manager, sent to a GA4 test property, and verified using GTM Preview and GA4 DebugView.</p>
-        <h3>Event flow</h3>
-        <ol class="flow" aria-label="Event flow">
-          <li>User action</li><li>dataLayer.push()</li><li>GTM trigger &amp; tag</li><li>GA4 test property</li><li>DebugView validation</li>
-        </ol>
-        <h3>Main features</h3>
-        <ul>
-          <li>Page-view tracking, including single-page navigation</li>
-          <li>Form-submission and lead (<code>generate_lead</code>) events</li>
-          <li>Simulated e-commerce funnel ending in a <code>purchase</code> event with test data</li>
-          <li>Consent-aware loading of tags</li>
-          <li>A tracking-plan document describing every event and parameter</li>
-          <li>Optional: forwarding events through a server-side tagging container</li>
-        </ul>
-        <h3>Technology</h3>
-        <ul class="stack"><li>JavaScript</li><li>Google Analytics 4</li><li>Google Tag Manager</li></ul>
-        <p class="case__note">Status: planned / in development. Uses a separate test GA4 property; no real customer or purchase data.</p>
-      </div>
-      <footer class="case__foot">
-        <a class="link-icon" href="YOUR_PROJECT_4_REPO_URL" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>Source code</a>
-        <a class="link-icon" href="YOUR_PROJECT_4_DEMO_URL" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg>Live demo</a>
       </footer>
     </div>
   </dialog>
